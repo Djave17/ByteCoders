@@ -1,0 +1,26 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+class Metodos {
+
+    public static int sumArray(int[] arr) {
+        int Suma = 0; 
+        for(int i = 0; i < arr.length; i++){
+            Suma += arr[i]; 
+        }
+        return Suma;
+    }
+}
+ 
+
+class Main {
+    public static void main(String[] args) {
+
+        Metodos met = new Metodos(); 
+        int[] arr = {1,2,3,4,5,6};
+    
+        
+        System.out.println(met.sumArray(arr)); 
+        
+        
+    }
+}
