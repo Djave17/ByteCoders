@@ -3,9 +3,10 @@ import java.util.Scanner;
 public class VowelCounter {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         
-        String text = sc.nextLine(); 
+        
+        System.out.println("Ingrese una palabra: ");
+        String text = "Hola Java"; 
         System.out.println("Cantidad de vocales: " + countVowels(text));
     }
 
